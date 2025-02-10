@@ -1,0 +1,166 @@
+header:
+  tab: "Road Validation - Screenline"
+  title: "Road Validation - Screenline"
+  description: ""
+  triggerPattern: ""
+
+layout:
+  ScreenlineAll IN:
+    - type: csv
+      title: 'Screenline Overall - Inbound by Time of Day'
+      description: 
+        This table presents a comparison between observed and modeled inbound 
+      dataset: Screenline/All_Screenlines_inbound.csv
+
+    - type: 'line'
+      title: 'Screenline Overall - Inbound by Time of Day'
+      description: ''
+      width: 1
+      dataset: 'Screenline/All_Screenlines_inbound_without_total.csv'
+      x: 'TOD'
+      y1: 'Observed'
+      y2: 'Modeled'
+      xAxisName: 'TOD'
+      yAxisName: 'Volume'
+      columns: [Observed, Modeled]
+      legendTitles: ['Observed', 'Modeled']
+
+  ScreenlineAll OUT:
+    - type: csv
+      title: 'Screenline Overall - Outbound by Time of Day'
+      description: 
+        This table presents a comparison between observed and modeled outbound 
+      dataset: Screenline/All_Screenlines_outbound.csv
+
+    - type: 'line'
+      title: 'Screenline Overall - Outbound by Time of Day'
+      description: ''
+      width: 1
+      dataset: 'Screenline/All_Screenlines_outbound_without_total.csv'
+      x: 'TOD'
+      y1: 'Observed'
+      y2: 'Modeled'
+      xAxisName: 'TOD'
+      yAxisName: 'Volume'
+      columns: [Observed, Modeled]
+      legendTitles: ['Observed', 'Modeled']
+
+  Bay_Bridge IN:
+    - type: csv
+      title: 'Bay_Bridge - Inbound by Time of Day'
+      description: 
+        This table presents a comparison between observed and modeled inbound 
+      dataset: Screenline/Bay_Bridge_inbound.csv
+
+    - type: 'line'
+      title: 'Bay_Bridge - Inbound by Time of Day'
+      description: ''
+      width: 1
+      dataset: 'Screenline/Bay_Bridge_inbound_without_total.csv'
+      x: 'TOD'
+      y1: 'Observed'
+      y2: 'Modeled'
+      xAxisName: 'TOD'
+      yAxisName: 'Volume'
+      columns: [Observed, Modeled]
+      legendTitles: ['Observed', 'Modeled']
+
+  Bay_Bridge OUT:
+    - type: csv
+      title: 'Bay_Bridge - Outbound by Time of Day'
+      description: 
+        This table presents a comparison between observed and modeled outbound 
+      dataset: Screenline/Bay_Bridge_outbound.csv
+
+    - type: 'line'
+      title: 'Bay_Bridge - Outbound by Time of Day'
+      description: ''
+      width: 1
+      dataset: 'Screenline/Bay_Bridge_outbound_without_total.csv'
+      x: 'TOD'
+      y1: 'Observed'
+      y2: 'Modeled'
+      xAxisName: 'TOD'
+      yAxisName: 'Volume'
+      columns: [Observed, Modeled]
+      legendTitles: ['Observed', 'Modeled']
+
+  Golden_Gate IN:
+    - type: csv
+      title: 'Golden_Gate - Inbound by Time of Day'
+      description: 
+        This table presents a comparison between observed and modeled inbound 
+      dataset: Screenline/Golden_Gate_inbound.csv
+
+    - type: 'line'
+      title: 'Bay_Bridge - Inbound by Time of Day'
+      description: ''
+      width: 1
+      dataset: 'Screenline/Golden_Gate_inbound_without_total.csv'
+      x: 'TOD'
+      y1: 'Observed'
+      y2: 'Modeled'
+      xAxisName: 'TOD'
+      yAxisName: 'Volume'
+      columns: [Observed, Modeled]
+      legendTitles: ['Observed', 'Modeled']
+
+  Golden_Gate OUT:
+    - type: csv
+      title: 'Golden_Gate - Outbound by Time of Day'
+      description: 
+        This table presents a comparison between observed and modeled outbound 
+      dataset: Screenline/Golden_Gate_outbound.csv
+
+    - type: 'line'
+      title: 'Golden_Gate - Outbound by Time of Day'
+      description: ''
+      width: 1
+      dataset: 'Screenline/Golden_Gate_outbound_without_total.csv'
+      x: 'TOD'
+      y1: 'Observed'
+      y2: 'Modeled'
+      xAxisName: 'TOD'
+      yAxisName: 'Volume'
+      columns: [Observed, Modeled]
+      legendTitles: ['Observed', 'Modeled']
+
+  San_Mateo IN:
+    - type: csv
+      title: 'San_Mateo - Inbound by Time of Day'
+      description: 
+        This table presents a comparison between observed and modeled inbound 
+      dataset: Screenline/San_Mateo_inbound.csv
+
+    - type: 'line'
+      title: 'San_Mateo - Inbound by Time of Day'
+      description: ''
+      width: 1
+      dataset: 'Screenline/San_Mateo_inbound_without_total.csv'
+      x: 'TOD'
+      y1: 'Observed'
+      y2: 'Modeled'
+      xAxisName: 'TOD'
+      yAxisName: 'Volume'
+      columns: [Observed, Modeled]
+      legendTitles: ['Observed', 'Modeled']
+
+  San_Mateo OUT:
+    - type: csv
+      title: 'San_Mateo - Outbound by Time of Day'
+      description: 
+        This table presents a comparison between observed and modeled outbound 
+      dataset: Screenline/San_Mateo_outbound.csv
+
+    - type: 'line'
+      title: 'San_Mateo - Outbound by Time of Day'
+      description: ''
+      width: 1
+      dataset: 'Screenline/San_Mateo_outbound_without_total.csv'
+      x: 'TOD'
+      y1: 'Observed'
+      y2: 'Modeled'
+      xAxisName: 'TOD'
+      yAxisName: 'Volume'
+      columns: [Observed, Modeled]
+      legendTitles: ['Observed', 'Modeled']
